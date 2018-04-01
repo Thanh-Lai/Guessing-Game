@@ -78,8 +78,31 @@
       background-image: url('giphy.gif');
       color: white;
     }
-    
-    
+
+    .blink {
+      padding: 15px;
+      text-align: linear;
+    }
+
+    span {
+      font-size: 50px;
+      font-family: Impact;
+      color: white;
+      animation: blink 1s infinite;
+      text-align: linear;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: .5;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
   </style>
 
 </head>
@@ -90,7 +113,7 @@
 
     <div id='headers'>
       <!-- Title and subtitles! -->
-      <h1 id='title'>¿¿Crack the Code??</h1>
+      <h1 id='title' class='blink'><span>¿¿Crack the Code??</span></h1>
       <h3 id='subtitle'>Guess a number between 1 and 100</h3>
     </div>
     <audio autoplay loop>
