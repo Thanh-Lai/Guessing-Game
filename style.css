@@ -1,4 +1,4 @@
-<style>
+
 .center {
   text-align: center;
 }
@@ -66,10 +66,7 @@ img {
 
 }
 
-body {
-  background-image: url('giphy.gif');
-  color: red;
-}
+
 
 .blink {
   padding: 15px;
@@ -95,4 +92,3 @@ span {
     opacity: 1;
   }
 }
-</style>
